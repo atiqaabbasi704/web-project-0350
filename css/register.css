@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e8;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #222;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #d4a373;
+}
+
+/* Registration Section */
+#registration {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Heading */
+#registration h1 {
+    text-align: center;
+    color: #333;
+}
+
+#registration p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Input Fields */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Submit Button */
+form button {
+    width: 100%;
+    padding: 13px;
+    background-color: #b08968;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8c6b50;
+}
